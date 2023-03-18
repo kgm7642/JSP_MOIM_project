@@ -1,17 +1,13 @@
-# JSP_MOIM_project 
+# JSP_project 
 
-- 제목
+- Project Name
 TOGETHER
 
-- 프로젝트 기간
+- Project period
 2022.01.11. ~ 2022.02.06
 
-- 프로젝트 인원
-4명
-
-- 팀원 & 담당파트
-
-강경민(조장)<br>
+- Project Members & role
+강경민(leader)<br>
 모임 파트 : 모임 생성, 홍보 게시판, 모임 신청 관리, 오늘 모임 리스트 검색, 모임 채팅<br>
 관리자 파트 : 공지사항 작성, 모임 삭제, 게시글 삭제<br>
 홍보 게시판 파트 : 게시판 리스트, 게시글 상세보기, 게시글 댓글<br>
