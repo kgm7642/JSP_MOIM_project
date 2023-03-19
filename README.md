@@ -1,12 +1,57 @@
+# TOGETHER (JSP를 사용한 프로젝트)<br>
+
+## 개발환경<br>
+- Eclipse
+- DBeaver
+
+## 사용기술
+
+### 백엔드
+#### 주요 프레임워크 / 라이브러리
+- jdk-11.0.15.1
+- JSP
+- Mybatis
+- JSON
+- JSTL
+- Apache Tomcat v9.0
+
+#### Database
+- Oracle
+
+### 프론트엔드
+- Javascript
+- Html/Css
+- Ajax
+- JQuery
+
+### 소통방법
+- Zum
+- Discord
+
+## 핵심 키워드
+- JSP와 서블릿 차이점 이해(각각의 장단점, 동작방법)
+- MVC 프레임워크 기반 백엔드 서버 구축
+- WebSocket을 사용하지 않고 실시간채팅을 구현 도전
+- Kakao Map API 를 사용하며 외부 API 사용법 학습
+
+## 프로젝트 목적
+### TOGETHER 프로젝트를 기획한 이유?
+대부분의 모임 사이트는 기업 설명회, 강연에 관련된 모임이 많거나 모임의 목적이 한정적이었습니다. 그래서 누구나 쉽게 다양한 모임을 개설하고 소통하며 인원을 모집 할 수 있는 공간을 제공하기 위해 기획하게 되었습니다.<br><br>
+
+처음 진행해본 프로젝트이면서 동시에 처음 진행해본 팀프로젝트입니다. 또한 웹 개발자로서 스프링을 학습하기 전 JSP만을 사용해 웹 애플리케이션의 동작과정을 이해하는 것도 좋을것 같아서 진행하게 되었습니다.<br>
+
+
+
+
 # JSP_project 
 
-- Project Name
+## Project Name<br>
 TOGETHER
 
-- Project period
+## Project period<br>
 2022.01.11. ~ 2022.02.06
 
-- Project Members & role
+## Project Members & role<br>
 강경민(leader)<br>
 모임 파트 : 모임 생성, 홍보 게시판, 모임 신청 관리, 오늘 모임 리스트 검색, 모임 채팅<br>
 관리자 파트 : 공지사항 작성, 모임 삭제, 게시글 삭제<br>
