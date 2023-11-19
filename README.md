@@ -70,9 +70,10 @@
 ## 주요 기능
 
 ![image](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/4dce338f-01c9-4f53-a7ee-401f1c5bf18b)
-인덱스프론트컨트롤러 - 1. 요청(request)을 받으면 요청이 Post면 doPost Get이면 doGet 메소드 실행 후 doProcess메소드 실행<br>
-                     2. URI에서 Path를 지워낸 후 command에 저장 -> switch문을 통해 알맞은 로직 실행<br>
-                     3. case문에서는 
+인덱스프론트컨트롤러 <br>
+1. 요청(request)을 받으면 요청이 Post면 doPost Get이면 doGet 메소드 실행 후 doProcess메소드 실행<br>
+2. URI에서 Path를 지워낸 후 command에 저장 -> switch문을 통해 알맞은 로직 실행<br>
+3. case문에서는 
 ![image](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/1ab5559e-c2f2-4326-a617-4ee6acf8621c)
 
 
