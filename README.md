@@ -66,24 +66,33 @@
 게시판 파트 : 게시판 리스트, 게시글 상세보기, 게시글 댓글<br>
 공지사항 파트 : 공지사항 리스트, 공지사항 상세보기<br>
 
-## 주요 기능
 
-![image](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/4dce338f-01c9-4f53-a7ee-401f1c5bf18b)
-인덱스프론트컨트롤러 <br>
-1. 요청(request)을 받으면 요청이 Post면 doPost Get이면 doGet 메소드 실행 후 doProcess메소드 실행<br>
-2. URI에서 Path를 지워낸 후 command에 저장 -> switch문을 통해 알맞은 로직 실행<br>
-3. case문에서는 
-![image](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/1ab5559e-c2f2-4326-a617-4ee6acf8621c)
+## 페이지별 기능
+
+![JSP01](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/6558046a-b2b6-4be4-b62b-b42e6e56e367)
+<br>
+### [회원가입]<br>
+   - 서비스를 이용하기 전 회원가입을 진행합니다. <br>
+   - Ajax를 통한 아이디 중복검사, 유효성 검사, 주소 API 등을 적용했습니다.
+<br>
+![JSP02](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/736528a7-918b-41da-89ac-d4932be2dae5)
+<br>
+![JSP03](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/9c38cbbb-935f-4114-a3f9-edebde572868)
+<br>
+![JSP04](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/6c861fe9-181a-4015-aea8-5c77b918a1a1)
+<br>
+![JSP05](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/56b80135-5316-4f5e-9af0-fee32a82e5f2)
+<br>
+![JSP06](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/45aaa890-c613-44b4-962a-0d32e67c672a)
+<br>
+![JSP07](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/47e555c0-5c78-45fe-b05d-4301ed7f102f)
+<br>
+![JSP08](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/bcba0a8e-3437-4ae4-bc9b-e229335a6c23)
+<br>
+![JSP09](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/c6d41f84-2401-4f23-b8ee-397fe11ffce8)
+<br>
 
 
-프론트 컨트롤러를 학습 
-모임을 개설하고 싶은 유저는 모임을 개설한 후 홍보 게시판을 통해 자신의 모임을 홍보할 수 있습니다. 또한 모임에 참여하고 싶은 유저는 홍보 게시판 또는 모임 리스트를 확인해 모임에 가입 신청을 할 수 있으며 모임 채팅을 통해 실시간으로 유저들 간의 소통이 가능합니다.
-
-## 프로젝트를 통해 얻은 것
-
-
-
-https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/4872368c-0a77-41fe-90cf-4e75b959554f
 
 
 
