@@ -70,7 +70,7 @@
 ## 페이지별 기능
 
 ![JSP01](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/6558046a-b2b6-4be4-b62b-b42e6e56e367)
-<br>
+<br><br>
 ### [회원가입]<br>
    - 서비스를 이용하기 전 회원가입을 진행합니다. <br>
    - Ajax를 통한 아이디 중복검사, 유효성 검사, 주소 API 등을 적용했습니다.
