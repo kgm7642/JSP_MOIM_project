@@ -1,4 +1,11 @@
-# TOGETHER (JSP를 사용한 프로젝트)<br><br>
+# ✈ 모임 싸이트 TOGETHER <br><br>
+
+![image](https://user-images.githubusercontent.com/85470797/219278580-4a62a834-3c10-402a-84a3-1633ad9d2f89.png)
+<br>
+
+## 프로젝트 소개
+- 누군가와 여행을 하고 싶거나 모임을 하고 싶지만 인원을 모집하는 적당한 플랫폼이 존재하지 않아 불편함을 겪었을 분들이 보다 쉽게 인원을 모집하고 다른 사람들과 소통할 수 있는 공간을 제공하기 위해서 기획하게 되었습니다.
+- 따라서 최대한 접근성을 낮춰 누구나 쉽고 자유롭게 모임을 생성하고 인원을 모집할 수 있도록 만들었습니다.
 
 ## 개발환경<br>
 - Eclipse
@@ -37,16 +44,6 @@
 - WebSocket을 사용하지 않고 실시간채팅 구현 도전
 - Kakao Map API 를 사용하며 외부 API 사용
 
-## 제작기간
-- 2022.01.11 ~ 2022.02.06
-
-## E-R 다이어그램
-![image](https://user-images.githubusercontent.com/85470797/226358897-3fc0ae2c-77a2-45e4-b814-64a1671ce212.png)
-
-## 프로젝트 목적
-### TOGETHER 프로젝트를 기획한 이유?
-웹 개발은 직접 무언가를 기획하고 만들어보는 것이 실력향상에 도움이 된다고 생각했습니다. 진행해보고 싶은 프로젝트는 많았지만 처음부터 무리하지 않고 차근차근 성장하자는 의미로 팀원들과 JSP를 사용한 모임 사이트를 만들게 되었습니다. 이 프로젝트를 통해 JSP와 Servlet의 차이를 이해하고 팀원들과 소통하는 법을 배웠습니다. 
-
 ## 팀원 및 역할
 
 강경민(leader)<br>
@@ -66,80 +63,30 @@
 게시판 파트 : 게시판 리스트, 게시글 상세보기, 게시글 댓글<br>
 공지사항 파트 : 공지사항 리스트, 공지사항 상세보기<br>
 
+## 제작기간
+- 2022.01.11 ~ 2022.02.06
 
-## 페이지별 기능
+## 타임 테이블 <br>
 
-![JSP01](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/6558046a-b2b6-4be4-b62b-b42e6e56e367)
-<br>
-### [회원가입]<br>
-   - 서비스를 이용하기 전 회원가입을 진행합니다. <br>
-   - Ajax를 통한 아이디 중복검사, 유효성 검사, 주소 API 등을 적용했습니다.
-<br>
-
-![JSP02](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/736528a7-918b-41da-89ac-d4932be2dae5)
-<br>
-### [모임생성]<br>
-   - 카카오지도 API를 사용했습니다.
-   - 정확한 위치를 설정하기 위해 지도에 좌표를 설정해봤습니다.
-
-<br>
-
-![JSP03](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/9c38cbbb-935f-4114-a3f9-edebde572868)
-<br>
-### [모임홍보]<br>
-   - 생성한 모임을 게시판에서 홍보합니다.
-   - 게시글에서 모임의 이름, 비용, 기간, 정확한 위치를 알 수 있습니다.
-   - 게시글의 댓글은 Ajax를 사용해 페이지 이동 없이 댓글이 바로 등록되도록 했습니다.
-
-![JSP04](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/6c861fe9-181a-4015-aea8-5c77b918a1a1)
-<br>
-### [모임가입신청]<br>
-   - 다른 사용자가 적절한 사유와 함께 모임에 가입신청서를 보냅니다.
-
-![JSP05](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/56b80135-5316-4f5e-9af0-fee32a82e5f2)
-<br>
-### [모임가입관리]<br>
-   - 모임장은 모임가입신청자를 관리합니다. 사유를 확인후 수락 혹은 거절합니다.
-   - 모임가입을 수락하자 모임원이 한명 추가되는 것을 확인할 수 있습니다.
-
-![JSP06](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/45aaa890-c613-44b4-962a-0d32e67c672a)
-<br>
-### [모임확인]<br>
-   - 모임가입신청자가 자신의 모임을 확인합니다.
-
-![JSP07](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/47e555c0-5c78-45fe-b05d-4301ed7f102f)
-<br>
-### [채팅]<br>
-   - 가장 아쉬웠던 모임채팅입니다. WebSocket을 사용해 실시간으로 구현하려했지만 실패했습니다.
-   - 한쪽 유저가 채팅을 입력한 후 조금의 시간이 지나야 다른 유저가 채팅을 확인할 수 있습니다.
-
-![JSP08](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/bcba0a8e-3437-4ae4-bc9b-e229335a6c23)
-<br>
-### [모임추방]<br>
-   - 방장이 모임원을 추방할 수 있습니다. 추방할 때 적절한 사유를 적어줍니다.
-
-![JSP09](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/c6d41f84-2401-4f23-b8ee-397fe11ffce8)
-<br>
-### [모임추방확인]<br>
-   - 추방당한 모임원이 자신의 추방 사유를 확인합니다.
-
-![image](https://user-images.githubusercontent.com/85470797/219278580-4a62a834-3c10-402a-84a3-1633ad9d2f89.png)
-![image](https://user-images.githubusercontent.com/85470797/219278603-0b5d85c2-9132-45bb-8950-a08f5049bbf2.png)
-![image](https://user-images.githubusercontent.com/85470797/219278632-721495a8-44e9-466a-8c1d-1afe2dc7573f.png)
-![image](https://user-images.githubusercontent.com/85470797/219278645-4a898747-6c1d-423f-9592-253e1eecb9be.png)
-![image](https://user-images.githubusercontent.com/85470797/219278667-a11ba2dd-4390-46ae-88f7-b97ba1bf7e30.png)
 ![image](https://user-images.githubusercontent.com/85470797/219278701-4c11341c-b0bb-49b8-bf5e-82ac6f3a15c2.png)
-![image](https://user-images.githubusercontent.com/85470797/219278717-3f4829c4-01f8-4a54-8825-f3b6cf7cc160.png)
-![image](https://user-images.githubusercontent.com/85470797/219278726-a9ae1f33-7cda-4050-aa41-e63343622b81.png)
-![image](https://user-images.githubusercontent.com/85470797/219278753-2a2280ae-a496-4e14-8197-8e3eb35e50f1.png)
+<br>
+
+## ERD <br>
+
 ![image](https://user-images.githubusercontent.com/85470797/219278772-3ae17fa3-e15f-4d07-a3ef-b7d6329f8811.png)
-![image](https://user-images.githubusercontent.com/85470797/219278784-2b2d8a1b-e691-4e7f-975d-622efc133079.png)
+<br>
+
+## Logic Process <br>
+
 ![image](https://user-images.githubusercontent.com/85470797/219278809-b35b54d7-5b9e-4a08-9797-6b441c4db7bf.png)
 ![image](https://user-images.githubusercontent.com/85470797/219278832-596cce61-e641-4156-a8fc-9ce20ea768fa.png)
 ![image](https://user-images.githubusercontent.com/85470797/219278864-730aff68-0aa3-4ae0-8d2e-21dd5e361d5d.png)
 ![image](https://user-images.githubusercontent.com/85470797/219278884-e9175ade-3e9e-4a4e-896b-5daf12094590.png)
 ![image](https://user-images.githubusercontent.com/85470797/219278900-efd01659-223f-47f2-9124-ff4cca2adc6e.png)
-![image](https://user-images.githubusercontent.com/85470797/219278921-990c81cf-3394-4f65-ba53-e17b5c0a294e.png)
+<br>
+
+## Flow Chart <br>
+
 ![image](https://user-images.githubusercontent.com/85470797/219278950-f4c51127-29a4-4f9f-9d26-7241c77d1a9c.png)
 ![image](https://user-images.githubusercontent.com/85470797/219278962-3c59668a-35e2-4331-9216-2da8701f5521.png)
 ![image](https://user-images.githubusercontent.com/85470797/219278988-4a91b7f4-db50-4ea4-a761-90ad588ba055.png)
@@ -159,7 +106,81 @@
 ![image](https://user-images.githubusercontent.com/85470797/219279242-9b4c1048-aab5-46d2-821d-fe6fa47db9d5.png)
 ![image](https://user-images.githubusercontent.com/85470797/219279260-1111dae2-e0f7-433f-a4a8-26eebc6d1ef8.png)
 ![image](https://user-images.githubusercontent.com/85470797/219279280-dada9f9a-37df-43d6-813b-a2457ae46a17.png)
-![image](https://user-images.githubusercontent.com/85470797/219279315-521e27e0-e0af-40e2-89b8-1a42cd1e573a.png)
+<br>
+<hr>
+
+## 페이지별 기능
+
+### [회원가입]<br>
+
+![JSP01](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/6558046a-b2b6-4be4-b62b-b42e6e56e367)
+<br>
+   - 서비스를 이용하기 전 회원가입을 진행합니다. <br>
+   - Ajax를 통한 아이디 중복검사, 유효성 검사, 주소 API 등을 적용했습니다.
+<br><hr><br><br>
+
+### [모임생성]<br>
+
+![JSP02](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/736528a7-918b-41da-89ac-d4932be2dae5)
+<br>
+   - 카카오지도 API를 사용했습니다.
+   - 정확한 위치를 설정하기 위해 지도에 좌표를 설정해봤습니다.
+<br><hr><br><br>
+
+### [모임홍보]<br>
+
+![JSP03](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/9c38cbbb-935f-4114-a3f9-edebde572868)
+<br>
+   - 생성한 모임을 게시판에서 홍보합니다.
+   - 게시글에서 모임의 이름, 비용, 기간, 정확한 위치를 알 수 있습니다.
+   - 게시글의 댓글은 Ajax를 사용해 페이지 이동 없이 댓글이 바로 등록되도록 했습니다.
+<br><hr><br><br>
+
+### [모임가입신청]<br>
+
+![JSP04](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/6c861fe9-181a-4015-aea8-5c77b918a1a1)
+<br>
+   - 다른 사용자가 적절한 사유와 함께 모임에 가입신청서를 보냅니다.
+<br><hr><br><br>
+
+### [모임가입관리]<br>
+
+![JSP05](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/56b80135-5316-4f5e-9af0-fee32a82e5f2)
+<br>
+   - 모임장은 모임가입신청자를 관리합니다. 사유를 확인후 수락 혹은 거절합니다.
+   - 모임가입을 수락하자 모임원이 한명 추가되는 것을 확인할 수 있습니다.
+<br><hr><br><br>
+
+### [모임확인]<br>
+
+![JSP06](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/45aaa890-c613-44b4-962a-0d32e67c672a)
+<br>
+   - 모임가입신청자가 자신의 모임을 확인합니다.
+<br><hr><br><br>
+
+### [채팅]<br>
+
+![JSP07](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/47e555c0-5c78-45fe-b05d-4301ed7f102f)
+<br>
+   - 가장 아쉬웠던 모임채팅입니다. WebSocket을 사용해 실시간으로 구현하려했지만 실패했습니다.
+   - 한쪽 유저가 채팅을 입력한 후 조금의 시간이 지나야 다른 유저가 채팅을 확인할 수 있습니다.
+<br><hr><br><br>
+
+### [모임추방]<br>
+
+![JSP08](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/bcba0a8e-3437-4ae4-bc9b-e229335a6c23)
+<br>
+   - 방장이 모임원을 추방할 수 있습니다. 추방할 때 적절한 사유를 적어줍니다.
+<br><hr><br><br>
+
+### [모임추방확인]<br>
+
+![JSP09](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/c6d41f84-2401-4f23-b8ee-397fe11ffce8)
+<br>
+   - 추방당한 모임원이 자신의 추방 사유를 확인합니다.
+<br><hr><br><br>
+
+## 스토리보드 <br>
 ![image](https://user-images.githubusercontent.com/85470797/219279346-e1063d20-a49f-4fe2-a3af-05d81558f1de.png)
 ![image](https://user-images.githubusercontent.com/85470797/219279362-08cb0116-bec0-4dc1-b709-9dc1da029205.png)
 ![image](https://user-images.githubusercontent.com/85470797/219279388-2d698415-93bc-4206-83e5-0c7a3b30d2f7.png)
