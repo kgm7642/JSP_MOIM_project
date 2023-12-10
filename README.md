@@ -70,32 +70,58 @@
 ## 페이지별 기능
 
 ![JSP01](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/6558046a-b2b6-4be4-b62b-b42e6e56e367)
-<br><br>
+<br>
 ### [회원가입]<br>
    - 서비스를 이용하기 전 회원가입을 진행합니다. <br>
    - Ajax를 통한 아이디 중복검사, 유효성 검사, 주소 API 등을 적용했습니다.
 <br>
+
 ![JSP02](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/736528a7-918b-41da-89ac-d4932be2dae5)
 <br>
+### [모임생성]<br>
+   - 카카오지도 API를 사용했습니다.
+   - 정확한 위치를 설정하기 위해 지도에 좌표를 설정해봤습니다.
+
+<br>
+
 ![JSP03](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/9c38cbbb-935f-4114-a3f9-edebde572868)
 <br>
+### [모임홍보]<br>
+   - 생성한 모임을 게시판에서 홍보합니다.
+   - 게시글에서 모임의 이름, 비용, 기간, 정확한 위치를 알 수 있습니다.
+   - 게시글의 댓글은 Ajax를 사용해 페이지 이동 없이 댓글이 바로 등록되도록 했습니다.
+
 ![JSP04](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/6c861fe9-181a-4015-aea8-5c77b918a1a1)
 <br>
+### [모임가입신청]<br>
+   - 다른 사용자가 적절한 사유와 함께 모임에 가입신청서를 보냅니다.
+
 ![JSP05](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/56b80135-5316-4f5e-9af0-fee32a82e5f2)
 <br>
+### [모임가입관리]<br>
+   - 모임장은 모임가입신청자를 관리합니다. 사유를 확인후 수락 혹은 거절합니다.
+   - 모임가입을 수락하자 모임원이 한명 추가되는 것을 확인할 수 있습니다.
+
 ![JSP06](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/45aaa890-c613-44b4-962a-0d32e67c672a)
 <br>
+### [모임확인]<br>
+   - 모임가입신청자가 자신의 모임을 확인합니다.
+
 ![JSP07](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/47e555c0-5c78-45fe-b05d-4301ed7f102f)
 <br>
+### [채팅]<br>
+   - 가장 아쉬웠던 모임채팅입니다. WebSocket을 사용해 실시간으로 구현하려했지만 실패했습니다.
+   - 한쪽 유저가 채팅을 입력한 후 조금의 시간이 지나야 다른 유저가 채팅을 확인할 수 있습니다.
+
 ![JSP08](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/bcba0a8e-3437-4ae4-bc9b-e229335a6c23)
 <br>
+### [모임추방]<br>
+   - 방장이 모임원을 추방할 수 있습니다. 추방할 때 적절한 사유를 적어줍니다.
+
 ![JSP09](https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/c6d41f84-2401-4f23-b8ee-397fe11ffce8)
 <br>
-
-
-
-
-
+### [모임추방확인]<br>
+   - 추방당한 모임원이 자신의 추방 사유를 확인합니다.
 
 ![image](https://user-images.githubusercontent.com/85470797/219278580-4a62a834-3c10-402a-84a3-1633ad9d2f89.png)
 ![image](https://user-images.githubusercontent.com/85470797/219278603-0b5d85c2-9132-45bb-8950-a08f5049bbf2.png)
