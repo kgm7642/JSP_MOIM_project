@@ -81,7 +81,11 @@
 
 ## 프로젝트를 통해 얻은 것
 
-[Uploading JSP영상.avi…]()
+
+
+https://github.com/kgm7642/JSP_MOIM_project/assets/85470797/4872368c-0a77-41fe-90cf-4e75b959554f
+
+
 
 
 ![image](https://user-images.githubusercontent.com/85470797/219278580-4a62a834-3c10-402a-84a3-1633ad9d2f89.png)
