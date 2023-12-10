@@ -81,6 +81,7 @@
 
 ## 프로젝트를 통해 얻은 것
 
+[Uploading JSP영상.avi…]()
 
 
 ![image](https://user-images.githubusercontent.com/85470797/219278580-4a62a834-3c10-402a-84a3-1633ad9d2f89.png)
