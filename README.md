@@ -222,7 +222,3 @@
 ![image](https://user-images.githubusercontent.com/85470797/219280115-f5b7525e-be69-4756-9aeb-cd4ae23b0b97.png)
 ![image](https://user-images.githubusercontent.com/85470797/219280136-7771b53d-3576-48a3-b62b-c3808a761c61.png)
 ![image](https://user-images.githubusercontent.com/85470797/219280160-bf8c8685-1b73-4998-9ce1-fb524e9e599e.png)
-![image](https://user-images.githubusercontent.com/85470797/219280184-fa34b00e-be7b-49f6-b297-3362969e5e6c.png)
-
-
-
